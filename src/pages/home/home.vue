@@ -112,7 +112,7 @@ export default {
   data() {
     return {
       provider: null,
-      contractAddress: "0xAE247c40C96bebDCbc8083aa982Bd84b9abaa9c0", // 合约地址
+      contractAddress: process.env.VUE_APP_CONTRACT, // 合约地址
       contract: null, // 当前的合约对象
       myAddress: "", // 我的地址
       balance: "0.00", // 我的余额
