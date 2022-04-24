@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>ROASTED</title><script>// 禁止双指放大
+      document.documentElement.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, false);
+
+      // 禁止双击放大
+      var lastTouchEnd = 0;
+      document.documentElement.addEventListener('touchend', function (event) {
+        var now = Date.now();
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-4YSJX5F1QH"></script><script>window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4YSJX5F1QH');</script><link href="css/chunk-vendors.f66af6fb.css" rel="stylesheet" integrity="sha384-FMHc81KiqOBPIYT5pu9ygAAOIC/UD6ajiBdxupWsK4Qq2bMur9qV03wGdeXR701X"><link href="css/app.27be280f.css" rel="stylesheet" integrity="sha384-wsOQWpvDNeexgoyG8Eajrfm/NQroOojaSWNmgGZEEWO7DzVNsM3WmVgJ8uZBmT31"></head><body><noscript><strong>We're sorry but burn token doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.0f4ee1a1.js" integrity="sha384-Kb564jkx/fTHsS6RJ8jgZ4Sees/5feWohMsj/+tqQ3gSpc3A3N8fYY40ScdAH45+"></script><script src="js/app.1f1f3f08.js" integrity="sha384-J2AJd2L5cTcfL62PIfzzcu8yo/3DRhPE3Pmzo+jOudFwSnq3mzWpeyxrdbVc3469"></script></body></html>
